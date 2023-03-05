@@ -1,6 +1,6 @@
 {
   "name": "mangodoc-top",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mangodoc top plugin",
   "main": "src",
   "unpkg": "dist/mangodoc-top.min.js",

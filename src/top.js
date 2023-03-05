@@ -1,8 +1,8 @@
 import $ from 'jquery';
 
 export default {
-    mounted(){
-        console.info("[mangodoc-top] mounted")
+    ready(){
+        console.info("[mangodoc-top] ready")
         // 获取小火箭元素
         let topEl = $('<div class="to-top"></div>');
         topEl.appendTo($("body"));
@@ -22,6 +22,6 @@ export default {
           toTop.addEventListener('click', function() {
             content.scrollTo({ top: 0, behavior: 'smooth' });
           });
-        }, 1000);  
+        }, 2000);  
     }
 }
